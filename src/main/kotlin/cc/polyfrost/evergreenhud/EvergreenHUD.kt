@@ -37,6 +37,7 @@ class EvergreenHUD {
         PlayerPreview()
         Playtime()
         Reach()
+        RealLifeDate()
         RealLifeTime()
         Saturation()
         ServerIP()

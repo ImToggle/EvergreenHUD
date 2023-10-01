@@ -226,7 +226,7 @@ class Armour: Config(Mod("ArmourHud", ModType.HUD, "/assets/evergreenhud/evergre
                 UGraphics.GL.pushMatrix()
                 TextRenderer.drawScaledString(
                     text,
-                    textX.toFloat() + translation,
+                    textX + translation,
                     itemY.toFloat() + mc.fontRendererObj.FONT_HEIGHT / 2f,
                     textColor.rgb,
                     TextRenderer.TextType.toType(textType),
